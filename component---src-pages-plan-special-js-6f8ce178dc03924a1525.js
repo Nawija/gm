@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[189],{8555:function(e,t,a){a.r(t),a.d(t,{Head:function(){return u}});var n=a(7294),r=a(1977),l=a(9357);const u=()=>n.createElement(l.Z,{title:"Special Strona Internetowa"});t.default=()=>n.createElement(r.Z,null)}}]);
+//# sourceMappingURL=component---src-pages-plan-special-js-6f8ce178dc03924a1525.js.map
