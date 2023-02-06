@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
 .globalWrapper{
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.font-coming{
+    font-family: Coming Soon;
+}
+
+.active{
+    color: rgb(255, 162, 22);
 }
 

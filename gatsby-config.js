@@ -17,6 +17,19 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-omni-font-loader`,
+      options: {
+        enableListener: true,
+        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        web: [
+          {
+            name: `Coming Soon`,
+            file: `https://fonts.googleapis.com/css2?family=Coming+Soon&family=Roboto:wght@300;500;700&display=swap`,
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
         publisherId: `ca-pub-8977613898516219`
@@ -44,7 +57,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logoBrowser.png`, // This path is relative to the root of the site.
       },
     },
   ],

@@ -7,7 +7,7 @@ import Price from "../components/price"
 import FasterBetter from "../components/fasterBetter"
 import InfoGatsby from "../components/infoGatsby"
 import WhyGatsby from "../components/whyGatsby"
-import fourSteps from "../images/fourSteps.png"
+import Opinion from "../components/opinion"
 
 const IndexPage = () => (
   <Layout>
@@ -15,8 +15,9 @@ const IndexPage = () => (
     <InfoGatsby />
     <FasterBetter />
     <WhyGatsby />
-    <img className="mx-auto ml-2" src={fourSteps}></img>
-    {/* <Price /> */}
+    <Price />
+    <Opinion />
+
 
 
   </Layout>

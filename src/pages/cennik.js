@@ -3,9 +3,11 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import Price from "../components/price.js"
+
 const Cennik = () => (
   <Layout>
-
+      <Price />
   </Layout>
 )
 
