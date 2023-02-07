@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby"
 
 const Kontakt = () => (
   <Layout>
@@ -75,7 +76,7 @@ const Kontakt = () => (
               <input
                 name="email"
                 pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$"
-                placeholder="email@bopple.pl"
+                placeholder="email@seovileo.pl"
                 class="w-full bg-gray-50 text-gray-800 border focus:ring ring-amber-300 rounded outline-none transition duration-100 px-3 py-2"
               />
             </div>
@@ -105,12 +106,12 @@ const Kontakt = () => (
               >
                 Wybierz Plan
               </label>
-              <a
+              <Link
                 class="text-amber-600 inline-block rounded-full ml-2 text-xs underline"
-                href="../../index.html#price"
+                to="/cennik"
               >
                 Cennik
-              </a>
+              </Link>
               <select
                 name="choosePlan"
                 class="w-full bg-gray-50 text-gray-800 border focus:ring ring-amber-300 rounded outline-none transition duration-100 px-3 py-2"
@@ -138,15 +139,15 @@ const Kontakt = () => (
             <div class="sm:col-span-2 flex justify-between items-center">
               <p class="text-gray-400 text-xs">
                 Zapoznaj sie również z naszym{" "}
-                <a
-                  href="../html/regulamin.html"
+                <Link
+                  to="/regulamin"
                   class="hover:text-amber-500 active:text-amber-600 underline transition duration-200 text-gray-800"
                 >
                   Regulaminem
-                </a>
+                </Link>
                 .
               </p>
-              <button class="inline-block bg-gradient-to-tr from-orange-700 to-amber-500 hover:text-orange-900 hover:scale-95 focus-visible:ring ring-amber-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-0 transition duration-200 px-8 py-3">
+              <button class="inline-block bg-gray-800 hover:bg-gray-900 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-0 transition duration-200 px-8 py-3">
                 Wyślij
               </button>
             </div>

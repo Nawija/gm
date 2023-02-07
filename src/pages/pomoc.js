@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
 
+import onePage from '../images/onePage.png'
+import hosting from '../images/hosting.png'
+
 const Pomoc = () => (
   <Layout>
       <div className="flex items-center flex-wrap justify-center text-white text-sm mx-auto max-w-screen md:text-base text-center">
@@ -25,8 +28,8 @@ const Pomoc = () => (
           <p class="mb-4 leading-relaxed">Jest to proces polegający na dostosowywaniu strony internetowej oraz jej treści tak, aby była ona lepiej widoczna w wynikach wyszukiwania, co przekłada się na wyższą pozycję strony w wynikach wyszukiwania. Celem SEO jest zwiększenie ruchu na stronie poprzez poprawienie widoczności w wynikach wyszukiwania.</p>
 
         </div>
-        <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+        <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-contain object-center rounded-md mx-auto" alt="hero"
+            src="https://cdn.pixabay.com/photo/2014/08/06/00/06/search-engine-411105_960_720.jpg" />
       </div>
     </section>
 
@@ -41,8 +44,8 @@ const Pomoc = () => (
           <p class="mb-4 leading-relaxed">Usługa polegająca na przechowywaniu plików strony internetowej na specjalnym serwerze, dzięki czemu strona jest dostępna dla użytkowników internetu. Hosting jest niezbędny do funkcjonowania strony internetowej, ponieważ bez tej usługi strona nie będzie dostępna dla użytkowników.</p>
 
         </div>
-        <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+        <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-contain object-center rounded-md mx-auto" alt="hero"
+            src={hosting} />
       </div>
     </section>
 
@@ -58,7 +61,7 @@ const Pomoc = () => (
 
         </div>
         <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+            src="https://cdn.pixabay.com/photo/2016/02/05/17/30/internet-1181587_960_720.png" />
       </div>
     </section>
 
@@ -75,7 +78,7 @@ const Pomoc = () => (
 
         </div>
         <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+            src={onePage} />
       </div>
     </section>
 
@@ -90,7 +93,7 @@ const Pomoc = () => (
 
         </div>
         <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+            src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" />
       </div>
     </section>
 
@@ -106,7 +109,7 @@ const Pomoc = () => (
 
         </div>
         <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+            src="https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
       </div>
     </section>
     
@@ -123,7 +126,7 @@ const Pomoc = () => (
 
         </div>
         <img class="w-full md:w-1/2 lg:w-1/3 h-64 md:h-72 lg:h-96 object-cover object-center rounded-md mx-auto" alt="hero"
-            src="https://source.unsplash.com/random/900×700/?fruit" />
+            src="https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" />
       </div>
     </section>
   </Layout>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
     scroll-padding-top: 4rem;
 }
 
@@ -18,5 +18,17 @@ html{
 
 .active{
     color: rgb(255, 162, 22);
+}
+
+.bgImgWhyGatsby{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(../images/bgWhyGatsby.jpg);
+    background-size: cover;
+    background-position: center;
 }
 

@@ -79,7 +79,7 @@ const Price = () => (
               </span>
               2 Darmowe Modyfikacje
             </p>
-            <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded group-hover:bg-gray-700 transition-colors duration-500">
+            <Link to="/kontakt" className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded group-hover:bg-gray-700 transition-colors duration-500">
               Sprawdz
               <svg
                 fill="none"
@@ -92,7 +92,7 @@ const Price = () => (
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </button>
+            </Link>
             <p className="text-xs text-gray-500 mt-3 text-start">
               Termin Realizacji od 4 do 10 dni
             </p>
@@ -190,7 +190,7 @@ const Price = () => (
               </span>
               Roczna Opieka
             </p>
-            <button className="flex items-center mt-auto text-white bg-gray-700 border-0 py-2 px-4 w-full focus:outline-none  rounded group-hover:bg-gray-500 transition-colors duration-500">
+            <Link to="/kontakt" className="flex items-center mt-auto text-white bg-gray-700 border-0 py-2 px-4 w-full focus:outline-none  rounded group-hover:bg-gray-500 transition-colors duration-500">
               Sprawdz
               <svg
                 fill="none"
@@ -203,7 +203,7 @@ const Price = () => (
               >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
-            </button>
+            </Link>
             <p className="text-xs text-gray-500 mt-3 text-start">
               Termin Realizacji od 4 do 10 dni
             </p>
@@ -331,7 +331,7 @@ const Price = () => (
               </span>
               Unikalny Design
             </p>
-            <Link to="/plan/special" className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded group-hover:bg-gray-700 transition-colors duration-500">
+            <Link to="/kontakt" to="/plan/special" className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded group-hover:bg-gray-700 transition-colors duration-500">
               Sprawdz
               <svg
                 fill="none"
